@@ -1,261 +1,514 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>早餐店地圖｜獨立網站列表</title>
-  <link rel="stylesheet" href="assets/style.css" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>早餐店地圖｜獨立網站列表</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Roboto:500" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="assets/landing-stores.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
-<body>
-  <header>
-    <h1>早餐店獨立網站</h1>
-    <p>每一家早餐店都有專屬頁面，方便分享與介紹。</p>
-  </header>
-  <main>
-    <section class="grid">
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+                                <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                    <title>早餐店地圖</title>
+                                    <defs>
+                                        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="logo-gradient-b">
+                                            <stop stop-color="#39D8C8" offset="0%"/>
+                                            <stop stop-color="#BCE4F4" offset="47.211%"/>
+                                            <stop stop-color="#838DEA" offset="100%"/>
+                                        </linearGradient>
+                                        <path d="M32 16H16v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v14z" id="logo-gradient-a"/>
+                                        <linearGradient x1="23.065%" y1="25.446%" y2="100%" id="logo-gradient-c">
+                                            <stop stop-color="#1274ED" stop-opacity="0" offset="0%"/>
+                                            <stop stop-color="#1274ED" offset="100%"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <mask id="logo-gradient-d" fill="#fff">
+                                            <use xlink:href="#logo-gradient-a"/>
+                                        </mask>
+                                        <use fill="url(#logo-gradient-b)" xlink:href="#logo-gradient-a"/>
+                                        <path fill="url(#logo-gradient-c)" mask="url(#logo-gradient-d)" d="M-16-16h32v32h-32z"/>
+                                    </g>
+                                </svg>
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwqgqA65epcnrEs2STIIloY0ukQGTuYHyi3ML9gkkJMX6HFaSPGqJ5GQAKwvc40fd4Yb8LHC0Cz3-XfvqqKzrpd17HIFtiVS5MypVBn14AH2dsnQ64M1ogEMWDtTrJ_sh8Lq8fviw=w92-h92-k-no" alt="有貓早餐 U Meow Breakfast 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早餐</span>
-          <h3>有貓早餐 U Meow Breakfast</h3>
-          <div class="meta">評分 4.6 (177)</div>
-          <div class="meta">永春路12-8號</div>
-          <a class="btn" href="sites/store-01/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwQyTDaLUY_QNOe2H1YfHTXavVRw-hVXkShO7unbZ3bcVXFQEOL5nOtPu90emAqsF1lgzvOG-VSOk5RnlJkJn_Q5bK_Oq-WEur8kELeemilpo6WIWcI9ADvUHF7ackk40x0MTCH=w122-h92-k-no" alt="早安饗村/酥皮蛋餅/特製辣椒/南屯推薦早餐 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早餐</span>
-          <h3>早安饗村/酥皮蛋餅/特製辣椒/南屯推薦早餐</h3>
-          <div class="meta">評分 4.6 (517)</div>
-          <div class="meta">黎明路二段90號</div>
-          <a class="btn" href="sites/store-02/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/p/AF1QipPseRbybuXuW4V3eVuNjB176SmteLYFakEeFCHa=w137-h92-k-no" alt="白貓散步 Gatto Bianco 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早午餐</span>
-          <h3>白貓散步 Gatto Bianco</h3>
-          <div class="meta">評分 4.4 (1,881)</div>
-          <div class="meta">地址未提供</div>
-          <a class="btn" href="sites/store-03/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/p/AF1QipM8fAj7s7dbKl_89c_NH_kKoU1auPNKWIm5MQhc=w122-h92-k-no" alt="述憶灶咖 早午餐.私廚.外燴（最後點餐15:00) 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早午餐</span>
-          <h3>述憶灶咖 早午餐.私廚.外燴（最後點餐15:00)</h3>
-          <div class="meta">評分 4.8 (385)</div>
-          <div class="meta">大墩四街572號</div>
-          <a class="btn" href="sites/store-04/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzqI6rZp0jYks46n_fBqmzl0RX84jyf8Gfy_NT6MgULIijSdelTJHMlVjm2vm4ZmSpqyYYUfjRI1INv70__SQavBUAvkotmqzi8F1_5gdgbIAzvKklqOboVzT1SkP9efoTx9J26gQ=w138-h92-k-no" alt="朝司暮想肉排蛋。台中南屯早餐店 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早餐</span>
-          <h3>朝司暮想肉排蛋。台中南屯早餐店</h3>
-          <div class="meta">評分 4.4 (226)</div>
-          <div class="meta">永春東路1022號</div>
-          <a class="btn" href="sites/store-05/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzIfDD1dCvQ_0L2CdCn4zBMX8PgehzRYtJ4lQhZmdUK0HwkErLGPLIMUJ8Egrvni2x3ieQhfKpd4ga0shTZWRGMAOQqBIAithUJKZ_NCbezk7WaLHn_RERGBzTIDpkiNs3w-o4=w80-h142-k-no" alt="青瑪 shimajima 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">餐廳</span>
-          <h3>青瑪 shimajima</h3>
-          <div class="meta">評分 4.6 (308)</div>
-          <div class="meta">地址未提供</div>
-          <a class="btn" href="sites/store-06/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxaEYUaAwR7-lHu7jwR3cxQ1arWKgc8mQD-efv-ICYxKDxidV4edZMahU-v_9sDaVc6qdJcbIsEzLF22OdPw5wtK4ADD75yOkFVse7RGkS4V_8NE91UrXW8K-XMwKBBIa8GFnV_=w80-h106-k-no" alt="艾初早餐 嶺東精科店 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早午餐</span>
-          <h3>艾初早餐 嶺東精科店</h3>
-          <div class="meta">評分 4.7 (907)</div>
-          <div class="meta">嶺東路392號</div>
-          <a class="btn" href="sites/store-07/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzXwSqyNBEqosWznS-vlp30dCtA_Icd4XnBZcH-2VthVtyAI-xeXnK5qKrAyIJtP4_uzr-PN5RDLZbvHK1NeHMH0KYgUn_ZU2SsZV-Tw42MPbrsHxQ2pe4-tHdwolVo6uKNx_vLGA=w122-h92-k-no" alt="早食喃喃 南屯店 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早午餐</span>
-          <h3>早食喃喃 南屯店</h3>
-          <div class="meta">評分 4.0 (345)</div>
-          <div class="meta">地址未提供</div>
-          <a class="btn" href="sites/store-08/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/p/AF1QipO2OZa0z7VsBgShqBhFl7QhOeE04rsonxUJJND5=w163-h92-k-no" alt="南屯路力饗站（南屯&amp;永春路口店） 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早餐</span>
-          <h3>南屯路力饗站（南屯&amp;永春路口店）</h3>
-          <div class="meta">評分 4.3 (63)</div>
-          <div class="meta">南屯路二段902號</div>
-          <a class="btn" href="sites/store-09/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzI0EXI5fJ3NhM6dtcflYEnhsy0D_5qVazNGafd4YaZQpqjcw12WjoP4CaURT0gsZH41KJnoO-AABF9Xo2mfOeIFUSC4NoZjXE8OITRUh8QQoxL1dIYxsXltaZgdyM8zXHS0c3bvzmwsLAW=w92-h92-k-no" alt="來點什麼-南屯林新店 ｜韓式早午餐｜韓式飯捲｜搖搖便當｜粉漿蛋餅｜早餐｜早午餐｜寵物友善 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早午餐</span>
-          <h3>來點什麼-南屯林新店 ｜韓式早午餐｜韓式飯捲｜搖搖便當｜粉漿蛋餅｜早餐｜早午餐｜寵物友善</h3>
-          <div class="meta">評分 4.8 (341)</div>
-          <div class="meta">大墩十一街453號</div>
-          <a class="btn" href="sites/store-10/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzIQpGKN2Eho5SwhBdYn-louwxvAp1PtHtXiCiPRxpXdqUW1ncYJWA043oQLQmQksPQHwYzUhjkvDzMUwiutatd4W9o2kLniIRxlqK7JUVN3DOdrwYlktwikxCCnNC7myakAoScqQ=w122-h92-k-no" alt="萬和路傳統早餐店 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早餐</span>
-          <h3>萬和路傳統早餐店</h3>
-          <div class="meta">評分 4.0 (301)</div>
-          <div class="meta">地址未提供</div>
-          <a class="btn" href="sites/store-11/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwwiagBbuZM4rEJSwPiYhfd-npsLIocRTT7DZjrWIx9NzPIo-YMmOKDqbGXIKPmnaJorZeTzwSy--4cjtnYvseAsu4LG1wtnJN05rWvE-CUJiRS8xIg1VS6wUYLr7KKjbwdRPSz=w92-h92-k-no" alt="嘉香早餐 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早餐</span>
-          <h3>嘉香早餐</h3>
-          <div class="meta">評分 4.2 (1,636)</div>
-          <div class="meta">大業路143號</div>
-          <a class="btn" href="sites/store-12/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-proxy/ALd4DhExX75MAcj_h9hP5f4jgYU8dQKO6fF4bZy5g4jtMGMT_1aYvo37VmxC8t3rifmAF04Z1yuE0GxKRALibR5Amqhsm3wNrc5TAqOHblKT0uSmyE1TwiNb2uP09JMU20bFoANocfMwnrkTvc7UCWWiC77HffSBhE2YaM4IRg57uf1ZOaSbFImKhKk=w132-h92-k-no" alt="蕃茄村南屯春安店 【台中 南屯區 早午餐推薦 】人氣早午餐|特色早午餐|必吃早餐|好吃早午餐|下午茶輕食沙拉|會議聚會包場|在地推薦早餐店|人氣紫米漢堡 彩虹眷村 嶺東科技大學附近美食2025 網友推薦首選 PTT Dcard 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早午餐</span>
-          <h3>蕃茄村南屯春安店 【台中 南屯區 早午餐推薦 】人氣早午餐|特色早午餐|必吃早餐|好吃早午餐|下午茶輕食沙拉|會議聚會包場|在地推薦早餐店|人氣紫米漢堡 彩虹眷村 嶺東科技大學附近美食2025 網友推薦首選 PTT Dcard</h3>
-          <div class="meta">評分 4.6 (265)</div>
-          <div class="meta">春安二街60號</div>
-          <a class="btn" href="sites/store-13/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxjv5gOvzYBwhLv3U0cC8lPO3kV5dfZOc9NUivQhEn4OPO6Us8QuvdBLIpx-qD--Tv5JfExzmp079s7A3bC9rnOLK8-qSWrFEuE1VxmYW0QWF2FLYZeG9QbV6jeJxfqLKOAmYEa=w122-h92-k-no" alt="古早味蛋餅中式早餐店 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">餐廳</span>
-          <h3>古早味蛋餅中式早餐店</h3>
-          <div class="meta">評分 4.6 (76)</div>
-          <div class="meta">五權西路二段1028號</div>
-          <a class="btn" href="sites/store-14/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw09DtG0H7N4cp6PlId2cBodEcuAOvGkpzx5HyV1OAMIAvNF-Pl33SrvrOZzQJj_AgTF7Bzq3DvpWxszV2ZkltvrCSHiPEXNOdNRQmjKgVW7CMPOoLWPP3FpXXf9nzoBk7jrNKHlA=w122-h92-k-no" alt="Yolo Moment 台中店 | 舒食早午餐｜甜點 | 下午茶｜生日蛋糕｜brunch &amp; cakes 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早午餐</span>
-          <h3>Yolo Moment 台中店 | 舒食早午餐｜甜點 | 下午茶｜生日蛋糕｜brunch &amp; cakes</h3>
-          <div class="meta">評分 4.5 (677)</div>
-          <div class="meta">地址未提供</div>
-          <a class="btn" href="sites/store-15/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzPzm_H47BWU9ZcsB-Nabe-cynjSoGhg2smz2qZFU5ulijNmCKfz-iXL8P9rI-I0EALB2DJESGOvrAzqWAZbHOjCigyttfugqzdjDdnqqBp01Rgpzw8tH-ATXm1M11Z6S9nqzcL5X-a53He=w122-h92-k-no" alt="Mr.噗噗先生 · 早午餐（13:00最後點餐） 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早餐</span>
-          <h3>Mr.噗噗先生 · 早午餐（13:00最後點餐）</h3>
-          <div class="meta">評分 4.7 (156)</div>
-          <div class="meta">嶺東路370巷9號</div>
-          <a class="btn" href="sites/store-16/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyy5ymjAYvLoErpCrbYLE7Kc4nkaNXAWBopR4X0VPzVexX7bvd_ivvSV1TXIcfL6nedQjx3lSQid3bntKEXE5gi4N4yPZSY5Q2OnXYrLnrfftpCrVLPU-svnMmxh4QlDxkXQzMeqI9aJuQ=w80-h106-k-no" alt="晨家早午餐mornhome-南屯店 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早餐</span>
-          <h3>晨家早午餐mornhome-南屯店</h3>
-          <div class="meta">評分 4.8 (279)</div>
-          <div class="meta">南屯路二段1-1號</div>
-          <a class="btn" href="sites/store-17/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxE62XVkJ0punkmtRPviwVkmLyaq8qghQRaDSyHQDw_pkTIBQY501PCrXv5Sgbd-zWPzfAA4Q2vgMEwGJNW5h20Kq9SulxtyAqMGE2blBEecZT0NABTE5xVpaq7gqsP4JX_5ag=w122-h92-k-no" alt="艾初早餐 南屯向心店 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早餐</span>
-          <h3>艾初早餐 南屯向心店</h3>
-          <div class="meta">評分 4.3 (310)</div>
-          <div class="meta">南屯路二段460號</div>
-          <a class="btn" href="sites/store-18/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz6g40jwwYvlXN3BRwBMA7AhvkOZGMzbbqWbJHJl5fdjdpCeSfxvaW2QMCwyq6DrpCtYuBCjrZi9kik01JPEK5APHwcm_mGGKoIoX9tKZdDq3sxVzSkaBhY4QUwLxQyF3F8bSI=w132-h92-k-no" alt="Hi早餐morning 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早餐</span>
-          <h3>Hi早餐morning</h3>
-          <div class="meta">評分 4.0 (499)</div>
-          <div class="meta">地址未提供</div>
-          <a class="btn" href="sites/store-19/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyelSWVy-H4FvBnUjdRubWfgJtrxBVWZ9KNjpfRAa_fdoNfyZJW53sBelSZKvxwDx8a3-fU3dONPDU-Qh73nCh3feZaoWDTdRIgmtx9y3HIqVN6uXvQsiH2IR48dDtBpXIEuTf3eg=w163-h92-k-no" alt="斜角brunch 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早午餐</span>
-          <h3>斜角brunch</h3>
-          <div class="meta">評分 4.0 (223)</div>
-          <div class="meta">黎明路一段1050號</div>
-          <a class="btn" href="sites/store-20/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=800&q=80" alt="207早餐 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">餐廳</span>
-          <h3>207早餐</h3>
-          <div class="meta">評分 4.8 (102)</div>
-          <div class="meta">三厝街207號</div>
-          <a class="btn" href="sites/store-21/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=800&q=80" alt="得來速早點早餐店 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早餐</span>
-          <h3>得來速早點早餐店</h3>
-          <div class="meta">評分 2.1 (7)</div>
-          <div class="meta">五權西路二段828號</div>
-          <a class="btn" href="sites/store-22/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=800&q=80" alt="挑食 pickfood 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早午餐</span>
-          <h3>挑食 pickfood</h3>
-          <div class="meta">評分 4.8 (546)</div>
-          <div class="meta">干城街111號</div>
-          <a class="btn" href="sites/store-23/index.html">前往獨立網站</a>
-        </div>
-      </article>
-      <article class="card">
-        <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=800&q=80" alt="大台北早點 店面照片" loading="lazy" />
-        <div class="card-content">
-          <span class="tag">早餐</span>
-          <h3>大台北早點</h3>
-          <div class="meta">評分 4.8 (61)</div>
-          <div class="meta">黎明路二段73號1樓</div>
-          <a class="btn" href="sites/store-24/index.html">前往獨立網站</a>
-        </div>
-      </article>
-    </section>
-  </main>
-  <footer>共收錄 24 間早餐店</footer>
+        <main>
+            <section class="hero text-center">
+                <div class="container-sm">
+                    <div class="hero-inner">
+                        <h1 class="hero-title h2-mobile mt-0 is-revealing">早餐店地圖</h1>
+                        <p class="hero-paragraph is-revealing">收錄南屯周邊 24 間早餐、早午餐與餐廳的獨立網站，快速找到你想探索的店家。</p>
+                        <div class="hero-cta is-revealing">
+                            <a class="button button-primary button-shadow" href="#stores">查看店家列表</a>
+                        </div>
+                        <div class="hero-browser">
+                            <div class="bubble-3 is-revealing">
+                                <svg width="427" height="286" viewBox="0 0 427 286" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <path d="M213.5 286C331.413 286 427 190.413 427 72.5S304.221 16.45 186.309 16.45C68.396 16.45 0-45.414 0 72.5S95.587 286 213.5 286z" id="bubble-3-a"/>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <mask id="bubble-3-b" fill="#fff">
+                                            <use xlink:href="#bubble-3-a"/>
+                                        </mask>
+                                        <use fill="#4E8FF8" xlink:href="#bubble-3-a"/>
+                                        <path d="M64.5 129.77c117.913 0 213.5-95.588 213.5-213.5 0-117.914-122.779-56.052-240.691-56.052C-80.604-139.782-149-201.644-149-83.73c0 117.913 95.587 213.5 213.5 213.5z" fill="#1274ED" mask="url(#bubble-3-b)"/>
+                                        <path d="M381.5 501.77c117.913 0 213.5-95.588 213.5-213.5 0-117.914-122.779-56.052-240.691-56.052C236.396 232.218 168 170.356 168 288.27c0 117.913 95.587 213.5 213.5 213.5z" fill="#75ABF3" mask="url(#bubble-3-b)"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="bubble-4 is-revealing">
+                                <svg width="230" height="235" viewBox="0 0 230 235" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <path d="M196.605 234.11C256.252 234.11 216 167.646 216 108 216 48.353 167.647 0 108 0S0 48.353 0 108s136.959 126.11 196.605 126.11z" id="bubble-4-a"/>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <mask id="bubble-4-b" fill="#fff">
+                                            <use xlink:href="#bubble-4-a"/>
+                                        </mask>
+                                        <use fill="#7CE8DD" xlink:href="#bubble-4-a"/>
+                                        <circle fill="#3BDDCC" mask="url(#bubble-4-b)" cx="30" cy="108" r="108"/>
+                                        <circle fill="#B1F1EA" opacity=".7" mask="url(#bubble-4-b)" cx="265" cy="88" r="108"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="hero-browser-inner is-revealing">
+                                <svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="browser-a">
+                                            <stop stop-color="#F6F8FA" stop-opacity=".48" offset="0%"/>
+                                            <stop stop-color="#F6F8FA" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="browser-b">
+                                            <stop stop-color="#F6F8FA" stop-opacity=".48" offset="0%"/>
+                                            <stop stop-color="#F6F8FA" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="100%" y1="-12.816%" x2="0%" y2="-12.816%" id="browser-c">
+                                            <stop stop-color="#F6F8FA" stop-opacity="0" offset="0%"/>
+                                            <stop stop-color="#E3E7EB" offset="50.045%"/>
+                                            <stop stop-color="#F6F8FA" stop-opacity="0" offset="100%"/>
+                                        </linearGradient>
+                                        <filter x="-500%" y="-500%" width="1000%" height="1000%" filterUnits="objectBoundingBox" id="dropshadow-1">
+                                            <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter"/>
+                                            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter"/>
+                                            <feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.2 0" in="shadowBlurOuter"/>
+                                        </filter>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <rect width="800" height="450" rx="4" fill="#FFF" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
+                                        <rect width="800" height="450" rx="4" fill="#FFF"/>
+                                        <g fill="url(#browser-a)" transform="translate(47 67)">
+                                            <path d="M146 0h122v122H146zM0 0h122v122H0zM292 0h122v122H292zM438 0h122v122H438zM584 0h122v122H584z"/>
+                                        </g>
+                                        <g transform="translate(47 239)" fill="url(#browser-b)">
+                                            <path d="M146 0h122v122H146zM0 0h122v122H0zM292 0h122v122H292zM438 0h122v122H438zM584 0h122v122H584z"/>
+                                        </g>
+                                        <path fill="url(#browser-c)" d="M0 146h706v2H0z" transform="translate(47 67)"/>
+                                        <g transform="translate(0 12)">
+                                            <circle fill="#FF6D8B" cx="36" cy="4" r="4"/>
+                                            <circle fill="#FFCB4F" cx="52" cy="4" r="4"/>
+                                            <circle fill="#7CE8DD" cx="68" cy="4" r="4"/>
+                                            <path fill="url(#browser-c)" d="M0 20h800v2H0z"/>
+                                            <path fill="#E3E7EB" d="M742 2h24v4h-24z"/>
+                                        </g>
+                                        <g>
+                                            <path fill="#F6F8FA" d="M47 385h706v32H47z"/>
+                                            <path fill="#E3E7EB" d="M356 399h88v4h-88z"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="bubble-1 is-revealing">
+                                <svg width="61" height="52" viewBox="0 0 61 52" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <path d="M32 43.992c17.673 0 28.05 17.673 28.05 0S49.674 0 32 0C14.327 0 0 14.327 0 32c0 17.673 14.327 11.992 32 11.992z" id="bubble-1-a"/>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <mask id="bubble-1-b" fill="#fff">
+                                            <use xlink:href="#bubble-1-a"/>
+                                        </mask>
+                                        <use fill="#FF6D8B" xlink:href="#bubble-1-a"/>
+                                        <path d="M2 43.992c17.673 0 28.05 17.673 28.05 0S19.674 0 2 0c-17.673 0-32 14.327-32 32 0 17.673 14.327 11.992 32 11.992z" fill="#FF4F73" mask="url(#bubble-1-b)"/>
+                                        <path d="M74 30.992c17.673 0 28.05 17.673 28.05 0S91.674-13 74-13C56.327-13 42 1.327 42 19c0 17.673 14.327 11.992 32 11.992z" fill-opacity=".8" fill="#FFA3B5" mask="url(#bubble-1-b)"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="bubble-2 is-revealing">
+                                <svg width="179" height="126" viewBox="0 0 179 126" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <path d="M104.697 125.661c41.034 0 74.298-33.264 74.298-74.298s-43.231-7.425-84.265-7.425S0-28.44 0 12.593c0 41.034 63.663 113.068 104.697 113.068z" id="bubble-2-a"/>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <mask id="bubble-2-b" fill="#fff">
+                                            <use xlink:href="#bubble-2-a"/>
+                                        </mask>
+                                        <use fill="#7CE8DD" xlink:href="#bubble-2-a"/>
+                                        <path d="M78.5 60.66c41.034 0 74.298-33.264 74.298-74.298S109.567-5.064 68.533-5.064 0-46.373 0-5.34 37.466 60.66 78.5 60.66z" fill="#3BDDCC" mask="url(#bubble-2-b)"/>
+                                        <path d="M196 126c41.034 0 74.298-33.264 74.298-74.298s-43.231-7.425-84.265-7.425-84.265-41.309-84.265-.275S154.966 126 196 126z" fill="#B1F1EA" opacity=".7" mask="url(#bubble-2-b)"/>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="stores" class="store-section section">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <h2 class="section-title mt-0">店家列表</h2>
+                        <p class="section-paragraph">已依店名排序，方便快速查找。共收錄 24 間店家。</p>
+                    </div>
+                    <div class="store-grid">
+                        <article class="store-card">
+                            <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=800&q=80" alt="207早餐 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">餐廳</span>
+                                <h3>207早餐</h3>
+                                <div class="store-meta">評分 4.8 (102)</div>
+                                <div class="store-meta">三厝街207號</div>
+                                <a class="store-link" href="sites/store-21/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz6g40jwwYvlXN3BRwBMA7AhvkOZGMzbbqWbJHJl5fdjdpCeSfxvaW2QMCwyq6DrpCtYuBCjrZi9kik01JPEK5APHwcm_mGGKoIoX9tKZdDq3sxVzSkaBhY4QUwLxQyF3F8bSI=w132-h92-k-no" alt="Hi早餐morning 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早餐</span>
+                                <h3>Hi早餐morning</h3>
+                                <div class="store-meta">評分 4.0 (499)</div>
+                                <div class="store-meta">地址未提供</div>
+                                <a class="store-link" href="sites/store-19/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzPzm_H47BWU9ZcsB-Nabe-cynjSoGhg2smz2qZFU5ulijNmCKfz-iXL8P9rI-I0EALB2DJESGOvrAzqWAZbHOjCigyttfugqzdjDdnqqBp01Rgpzw8tH-ATXm1M11Z6S9nqzcL5X-a53He=w122-h92-k-no" alt="Mr.噗噗先生 · 早午餐（13:00最後點餐） 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早餐</span>
+                                <h3>Mr.噗噗先生 · 早午餐（13:00最後點餐）</h3>
+                                <div class="store-meta">評分 4.7 (156)</div>
+                                <div class="store-meta">嶺東路370巷9號</div>
+                                <a class="store-link" href="sites/store-16/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw09DtG0H7N4cp6PlId2cBodEcuAOvGkpzx5HyV1OAMIAvNF-Pl33SrvrOZzQJj_AgTF7Bzq3DvpWxszV2ZkltvrCSHiPEXNOdNRQmjKgVW7CMPOoLWPP3FpXXf9nzoBk7jrNKHlA=w122-h92-k-no" alt="Yolo Moment 台中店 | 舒食早午餐｜甜點 | 下午茶｜生日蛋糕｜brunch &amp; cakes 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早午餐</span>
+                                <h3>Yolo Moment 台中店 | 舒食早午餐｜甜點 | 下午茶｜生日蛋糕｜brunch &amp; cakes</h3>
+                                <div class="store-meta">評分 4.5 (677)</div>
+                                <div class="store-meta">地址未提供</div>
+                                <a class="store-link" href="sites/store-15/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzI0EXI5fJ3NhM6dtcflYEnhsy0D_5qVazNGafd4YaZQpqjcw12WjoP4CaURT0gsZH41KJnoO-AABF9Xo2mfOeIFUSC4NoZjXE8OITRUh8QQoxL1dIYxsXltaZgdyM8zXHS0c3bvzmwsLAW=w92-h92-k-no" alt="來點什麼-南屯林新店 ｜韓式早午餐｜韓式飯捲｜搖搖便當｜粉漿蛋餅｜早餐｜早午餐｜寵物友善 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早午餐</span>
+                                <h3>來點什麼-南屯林新店 ｜韓式早午餐｜韓式飯捲｜搖搖便當｜粉漿蛋餅｜早餐｜早午餐｜寵物友善</h3>
+                                <div class="store-meta">評分 4.8 (341)</div>
+                                <div class="store-meta">大墩十一街453號</div>
+                                <a class="store-link" href="sites/store-10/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/p/AF1QipO2OZa0z7VsBgShqBhFl7QhOeE04rsonxUJJND5=w163-h92-k-no" alt="南屯路力饗站（南屯&amp;永春路口店） 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早餐</span>
+                                <h3>南屯路力饗站（南屯&amp;永春路口店）</h3>
+                                <div class="store-meta">評分 4.3 (63)</div>
+                                <div class="store-meta">南屯路二段902號</div>
+                                <a class="store-link" href="sites/store-09/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxjv5gOvzYBwhLv3U0cC8lPO3kV5dfZOc9NUivQhEn4OPO6Us8QuvdBLIpx-qD--Tv5JfExzmp079s7A3bC9rnOLK8-qSWrFEuE1VxmYW0QWF2FLYZeG9QbV6jeJxfqLKOAmYEa=w122-h92-k-no" alt="古早味蛋餅中式早餐店 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">餐廳</span>
+                                <h3>古早味蛋餅中式早餐店</h3>
+                                <div class="store-meta">評分 4.6 (76)</div>
+                                <div class="store-meta">五權西路二段1028號</div>
+                                <a class="store-link" href="sites/store-14/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwwiagBbuZM4rEJSwPiYhfd-npsLIocRTT7DZjrWIx9NzPIo-YMmOKDqbGXIKPmnaJorZeTzwSy--4cjtnYvseAsu4LG1wtnJN05rWvE-CUJiRS8xIg1VS6wUYLr7KKjbwdRPSz=w92-h92-k-no" alt="嘉香早餐 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早餐</span>
+                                <h3>嘉香早餐</h3>
+                                <div class="store-meta">評分 4.2 (1,636)</div>
+                                <div class="store-meta">大業路143號</div>
+                                <a class="store-link" href="sites/store-12/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=800&q=80" alt="大台北早點 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早餐</span>
+                                <h3>大台北早點</h3>
+                                <div class="store-meta">評分 4.8 (61)</div>
+                                <div class="store-meta">黎明路二段73號1樓</div>
+                                <a class="store-link" href="sites/store-24/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=800&q=80" alt="得來速早點早餐店 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早餐</span>
+                                <h3>得來速早點早餐店</h3>
+                                <div class="store-meta">評分 2.1 (7)</div>
+                                <div class="store-meta">五權西路二段828號</div>
+                                <a class="store-link" href="sites/store-22/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=800&q=80" alt="挑食 pickfood 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早午餐</span>
+                                <h3>挑食 pickfood</h3>
+                                <div class="store-meta">評分 4.8 (546)</div>
+                                <div class="store-meta">干城街111號</div>
+                                <a class="store-link" href="sites/store-23/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyelSWVy-H4FvBnUjdRubWfgJtrxBVWZ9KNjpfRAa_fdoNfyZJW53sBelSZKvxwDx8a3-fU3dONPDU-Qh73nCh3feZaoWDTdRIgmtx9y3HIqVN6uXvQsiH2IR48dDtBpXIEuTf3eg=w163-h92-k-no" alt="斜角brunch 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早午餐</span>
+                                <h3>斜角brunch</h3>
+                                <div class="store-meta">評分 4.0 (223)</div>
+                                <div class="store-meta">黎明路一段1050號</div>
+                                <a class="store-link" href="sites/store-20/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwQyTDaLUY_QNOe2H1YfHTXavVRw-hVXkShO7unbZ3bcVXFQEOL5nOtPu90emAqsF1lgzvOG-VSOk5RnlJkJn_Q5bK_Oq-WEur8kELeemilpo6WIWcI9ADvUHF7ackk40x0MTCH=w122-h92-k-no" alt="早安饗村/酥皮蛋餅/特製辣椒/南屯推薦早餐 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早餐</span>
+                                <h3>早安饗村/酥皮蛋餅/特製辣椒/南屯推薦早餐</h3>
+                                <div class="store-meta">評分 4.6 (517)</div>
+                                <div class="store-meta">黎明路二段90號</div>
+                                <a class="store-link" href="sites/store-02/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzXwSqyNBEqosWznS-vlp30dCtA_Icd4XnBZcH-2VthVtyAI-xeXnK5qKrAyIJtP4_uzr-PN5RDLZbvHK1NeHMH0KYgUn_ZU2SsZV-Tw42MPbrsHxQ2pe4-tHdwolVo6uKNx_vLGA=w122-h92-k-no" alt="早食喃喃 南屯店 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早午餐</span>
+                                <h3>早食喃喃 南屯店</h3>
+                                <div class="store-meta">評分 4.0 (345)</div>
+                                <div class="store-meta">地址未提供</div>
+                                <a class="store-link" href="sites/store-08/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyy5ymjAYvLoErpCrbYLE7Kc4nkaNXAWBopR4X0VPzVexX7bvd_ivvSV1TXIcfL6nedQjx3lSQid3bntKEXE5gi4N4yPZSY5Q2OnXYrLnrfftpCrVLPU-svnMmxh4QlDxkXQzMeqI9aJuQ=w80-h106-k-no" alt="晨家早午餐mornhome-南屯店 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早餐</span>
+                                <h3>晨家早午餐mornhome-南屯店</h3>
+                                <div class="store-meta">評分 4.8 (279)</div>
+                                <div class="store-meta">南屯路二段1-1號</div>
+                                <a class="store-link" href="sites/store-17/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwqgqA65epcnrEs2STIIloY0ukQGTuYHyi3ML9gkkJMX6HFaSPGqJ5GQAKwvc40fd4Yb8LHC0Cz3-XfvqqKzrpd17HIFtiVS5MypVBn14AH2dsnQ64M1ogEMWDtTrJ_sh8Lq8fviw=w92-h92-k-no" alt="有貓早餐 U Meow Breakfast 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早餐</span>
+                                <h3>有貓早餐 U Meow Breakfast</h3>
+                                <div class="store-meta">評分 4.6 (177)</div>
+                                <div class="store-meta">永春路12-8號</div>
+                                <a class="store-link" href="sites/store-01/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzqI6rZp0jYks46n_fBqmzl0RX84jyf8Gfy_NT6MgULIijSdelTJHMlVjm2vm4ZmSpqyYYUfjRI1INv70__SQavBUAvkotmqzi8F1_5gdgbIAzvKklqOboVzT1SkP9efoTx9J26gQ=w138-h92-k-no" alt="朝司暮想肉排蛋。台中南屯早餐店 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早餐</span>
+                                <h3>朝司暮想肉排蛋。台中南屯早餐店</h3>
+                                <div class="store-meta">評分 4.4 (226)</div>
+                                <div class="store-meta">永春東路1022號</div>
+                                <a class="store-link" href="sites/store-05/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/p/AF1QipPseRbybuXuW4V3eVuNjB176SmteLYFakEeFCHa=w137-h92-k-no" alt="白貓散步 Gatto Bianco 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早午餐</span>
+                                <h3>白貓散步 Gatto Bianco</h3>
+                                <div class="store-meta">評分 4.4 (1,881)</div>
+                                <div class="store-meta">地址未提供</div>
+                                <a class="store-link" href="sites/store-03/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxE62XVkJ0punkmtRPviwVkmLyaq8qghQRaDSyHQDw_pkTIBQY501PCrXv5Sgbd-zWPzfAA4Q2vgMEwGJNW5h20Kq9SulxtyAqMGE2blBEecZT0NABTE5xVpaq7gqsP4JX_5ag=w122-h92-k-no" alt="艾初早餐 南屯向心店 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早餐</span>
+                                <h3>艾初早餐 南屯向心店</h3>
+                                <div class="store-meta">評分 4.3 (310)</div>
+                                <div class="store-meta">南屯路二段460號</div>
+                                <a class="store-link" href="sites/store-18/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxaEYUaAwR7-lHu7jwR3cxQ1arWKgc8mQD-efv-ICYxKDxidV4edZMahU-v_9sDaVc6qdJcbIsEzLF22OdPw5wtK4ADD75yOkFVse7RGkS4V_8NE91UrXW8K-XMwKBBIa8GFnV_=w80-h106-k-no" alt="艾初早餐 嶺東精科店 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早午餐</span>
+                                <h3>艾初早餐 嶺東精科店</h3>
+                                <div class="store-meta">評分 4.7 (907)</div>
+                                <div class="store-meta">嶺東路392號</div>
+                                <a class="store-link" href="sites/store-07/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzIQpGKN2Eho5SwhBdYn-louwxvAp1PtHtXiCiPRxpXdqUW1ncYJWA043oQLQmQksPQHwYzUhjkvDzMUwiutatd4W9o2kLniIRxlqK7JUVN3DOdrwYlktwikxCCnNC7myakAoScqQ=w122-h92-k-no" alt="萬和路傳統早餐店 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早餐</span>
+                                <h3>萬和路傳統早餐店</h3>
+                                <div class="store-meta">評分 4.0 (301)</div>
+                                <div class="store-meta">地址未提供</div>
+                                <a class="store-link" href="sites/store-11/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-proxy/ALd4DhExX75MAcj_h9hP5f4jgYU8dQKO6fF4bZy5g4jtMGMT_1aYvo37VmxC8t3rifmAF04Z1yuE0GxKRALibR5Amqhsm3wNrc5TAqOHblKT0uSmyE1TwiNb2uP09JMU20bFoANocfMwnrkTvc7UCWWiC77HffSBhE2YaM4IRg57uf1ZOaSbFImKhKk=w132-h92-k-no" alt="蕃茄村南屯春安店 【台中 南屯區 早午餐推薦 】人氣早午餐|特色早午餐|必吃早餐|好吃早午餐|下午茶輕食沙拉|會議聚會包場|在地推薦早餐店|人氣紫米漢堡 彩虹眷村 嶺東科技大學附近美食2025 網友推薦首選 PTT Dcard 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早午餐</span>
+                                <h3>蕃茄村南屯春安店 【台中 南屯區 早午餐推薦 】人氣早午餐|特色早午餐|必吃早餐|好吃早午餐|下午茶輕食沙拉|會議聚會包場|在地推薦早餐店|人氣紫米漢堡 彩虹眷村 嶺東科技大學附近美食2025 網友推薦首選 PTT Dcard</h3>
+                                <div class="store-meta">評分 4.6 (265)</div>
+                                <div class="store-meta">春安二街60號</div>
+                                <a class="store-link" href="sites/store-13/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/p/AF1QipM8fAj7s7dbKl_89c_NH_kKoU1auPNKWIm5MQhc=w122-h92-k-no" alt="述憶灶咖 早午餐.私廚.外燴（最後點餐15:00) 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">早午餐</span>
+                                <h3>述憶灶咖 早午餐.私廚.外燴（最後點餐15:00)</h3>
+                                <div class="store-meta">評分 4.8 (385)</div>
+                                <div class="store-meta">大墩四街572號</div>
+                                <a class="store-link" href="sites/store-04/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                        <article class="store-card">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzIfDD1dCvQ_0L2CdCn4zBMX8PgehzRYtJ4lQhZmdUK0HwkErLGPLIMUJ8Egrvni2x3ieQhfKpd4ga0shTZWRGMAOQqBIAithUJKZ_NCbezk7WaLHn_RERGBzTIDpkiNs3w-o4=w80-h142-k-no" alt="青瑪 shimajima 店面照片" loading="lazy" />
+                            <div class="store-card-body">
+                                <span class="store-tag">餐廳</span>
+                                <h3>青瑪 shimajima</h3>
+                                <div class="store-meta">評分 4.6 (308)</div>
+                                <div class="store-meta">地址未提供</div>
+                                <a class="store-link" href="sites/store-06/index.html">前往獨立網站</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="newsletter section">
+                <div class="container-sm">
+                    <div class="newsletter-inner section-inner">
+                        <div class="newsletter-header text-center is-revealing">
+                            <h2 class="section-title mt-0">收到最新更新</h2>
+                            <p class="section-paragraph">留下 Email，未來會優先通知新上架的店家與活動。</p>
+                        </div>
+                        <div class="footer-form newsletter-form field field-grouped is-revealing">
+                            <div class="control control-expanded">
+                                <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
+                            </div>
+                            <div class="control">
+                                <a class="button button-primary button-block button-shadow" href="#">Get early access</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer text-light">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+                        <a href="#">
+                            <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                <title>Ava</title>
+                                <defs>
+                                    <path d="M32 16H16v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v14z" id="logo-gradient-footer-a"/>
+                                    <linearGradient x1="50%" y1="50%" y2="100%" id="logo-gradient-footer-b">
+                                        <stop stop-color="#FFF" stop-opacity="0" offset="0%"/>
+                                        <stop stop-color="#FFF" offset="100%"/>
+                                    </linearGradient>
+                                </defs>
+                                <g fill="none" fill-rule="evenodd">
+                                    <mask id="logo-gradient-footer-c" fill="#fff">
+                                        <use xlink:href="#logo-gradient-footer-a"/>
+                                    </mask>
+                                    <use fill-opacity=".32" fill="#FFF" xlink:href="#logo-gradient-footer-a"/>
+                                    <path fill="url(#logo-gradient-footer-b)" mask="url(#logo-gradient-footer-c)" d="M-16-16h32v32h-32z"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                    <ul class="footer-links list-reset">
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ's</a>
+                        </li>
+                        <li>
+                            <a href="#">Support</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-social-links list-reset">
+                        <li>
+                            <a href="#">
+                                <span class="screen-reader-text">Facebook</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#FFFFFF"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="screen-reader-text">Twitter</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#FFFFFF"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="screen-reader-text">Google</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#FFFFFF"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer-copyright">&copy; 2025 早餐店地圖</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
 </body>
 </html>
